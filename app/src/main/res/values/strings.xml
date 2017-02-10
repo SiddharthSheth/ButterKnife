@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Butter Knife</string>
+    <string name="display_list">Display List</string>
+
+    <string name="item1">Item One</string>
+    <string name="item2">Item Two</string>
+    <string name="item3">Item Three</string>
+
+</resources>
