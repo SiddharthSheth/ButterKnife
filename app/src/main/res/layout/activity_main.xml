@@ -33,6 +33,14 @@
         android:textAllCaps="false"
         android:textSize="20sp" />
 
+    <ImageView
+        android:id="@+id/iv_data_notfound"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_demorv"
         android:layout_width="match_parent"

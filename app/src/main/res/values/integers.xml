@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="count_item">3</integer>
+
+    <bool name="iftrue">true</bool>
+
+</resources>

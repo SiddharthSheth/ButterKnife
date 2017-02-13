@@ -25,9 +25,12 @@ public class DemoAdapter extends RecyclerView.Adapter<DemoAdapter.MyViewHolder> 
 
     ArrayList<String> demoList;
 
+    Context context;
+
     public DemoAdapter(Context context, ArrayList<String> demoList) {
 
         this.demoList = demoList;
+        this.context = context;
 
     }
 
@@ -69,7 +72,11 @@ public class DemoAdapter extends RecyclerView.Adapter<DemoAdapter.MyViewHolder> 
         holder.txtIteam2.setText(demoList.get(1));
         holder.txtIteam3.setText(demoList.get(2));
         holder.ivImage.setImageDrawable(holder.imgDrawable);
+
+
+
     }
+
 
     @Override
     public int getItemCount() {
